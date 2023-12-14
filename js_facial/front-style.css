@@ -1,0 +1,60 @@
+.verifyButton{
+    background-color: #397dd1;
+    border-radius: 3px;
+    border : 100px;
+    padding : 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #ffffff;
+    font-size: large;
+    cursor: pointer;
+}
+
+.verifyButton:hover{
+    background-color: #2a5bae;
+}
+
+.verifyYourself{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #397dd1;
+    padding-bottom: 20px;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left:100px; 
+    padding-right: 100px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow:2px 1px 2px #eee;
+}
+
+.Navbar-right{
+    padding-left: 20px;padding-right: 20px;font-family:sans-serif;cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  width: 100%; 
+  }
+  
+  #pot,#pot-clone {
+    position: relative;
+    animation: slideImage 20s linear infinite; /* Adjust duration as needed */
+    width: 100%;
+  }
+  
+  @keyframes slideImage {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%; /* Adjust based on the total width of your image */
+    }
+  }
+  

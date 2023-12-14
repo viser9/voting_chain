@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Face detection on the browser using javascript !</title>
+  <!-- <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script> -->
+  <link rel="stylesheet" href="front-style.css">
+  
+</head>
+<body>
+    <script>
+        function gotoWebpage(){
+            window.location.href = "http://127.0.0.1:5500/index.html"
+        }
+    </script>
+    <nav class="Navbar" >
+        <div style="display: flex">
+            <a href="https://voters.eci.gov.in/">
+            <img src="./images/ec.jpeg" width="50px" height="50px" style="padding-right: 20px;"></a>
+            मतदाता सेवा पोर्टल<br>
+            VOTERS SERVICE PORTAL
+        </div>
+        <div style="display: flex;justify-content: space-between;">
+            <a href="https://ecisveep.nic.in/"><img src="./images/sveepLogo.webp" height="50px" width="120px"></a>
+            <a href="https://www.eci.gov.in/divisions-of-eci/ict-apps/"><img src="./images/voter_helpline.png" height="50px" width="50px" style="padding-left: 80px;"></a>
+        </div>
+    </nav>
+    <div class="image-container">
+        <img src="./images/strip.jpeg" id="pot" height="137px" />
+        <img src="./images/strip.jpeg" id="pot-clone" height="137px" />
+    </div>
+      </div>
+    <div style="display: flex;justify-content: center; padding-top: 80px;">
+        <div>
+            <img src="./images/noVoter.png" width="600vw" height="500px">
+            </div>
+        <div style="padding-top: 12vw;padding-left: 100px;">
+            <div class="verifyYourself">
+                VERIFY YOURSELF BEFORE VOTING!
+            </div>
+            <div style="display: flex;justify-content: center;">
+                <button onclick="gotoWebpage()" class="verifyButton">
+                Click here!
+            </button>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+</body>
+</html>
